@@ -1,0 +1,14 @@
+| = lo uso come separatore al posto del -
+
+id | Int, Unique
+company | varchar
+model | varchar
+fuel | varchar 
+trasmission | varchar
+horse_power | smallint
+km | mediumint
+year | year
+status | varchar
+color | varchar
+description | text
+price | decimal (6, 2)
