@@ -3,14 +3,14 @@ per km = 150.000
 per price = 120.000,99
 
 id | Int, Unique
-company | varchar
-model | varchar
-fuel | varchar 
-trasmission | varchar
+company | notnull, varchar
+model | notnull, varchar
+fuel | notnull, varchar 
+trasmission | null, varchar
 horse_power | smallint
 km | mediumint
 year | year
-status | varchar
-color | varchar
+status | notnull, varchar
+color | null, varchar
 description | text
 price | decimal (6, 2)
