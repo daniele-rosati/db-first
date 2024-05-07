@@ -1,4 +1,6 @@
 | = lo uso come separatore al posto del -
+per km = 150.000
+per price = 120.000,99
 
 id | Int, Unique
 company | varchar
